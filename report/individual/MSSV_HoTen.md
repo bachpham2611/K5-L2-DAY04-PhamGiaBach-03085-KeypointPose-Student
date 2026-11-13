@@ -6,15 +6,15 @@ Dữ liệu: 12 ảnh người COCO val2017 (Lin et al., 2014) và 8 ảnh chân
 
 ## 0. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Link repository:
-- Phiên bản CVAT (Help → About):
-- Máy: hệ điều hành ___ · RAM ___ GB · chạy CVAT chế độ đầy đủ / lite
-- Bộ ảnh (`src/exports/assignment.json` do `lab.py setup` tạo): có / không
-- Giờ bắt đầu:
-- Giờ kết thúc:
+- Họ tên: Phạm Gia Bách 
+- MSSV: 2A202603085
+- Email: 26ai.bachpg@vinuni.edu.vn
+- Link repository: https://github.com/bachpham2611/K5-L2-DAY04-PhamGiaBach-03085-KeypointPose-Student
+- Phiên bản CVAT (Help → About): 2.74.1
+- Máy: hệ điều hành Window · RAM 40 GB · chạy CVAT chế độ đầy đủ / lite
+- Bộ ảnh (`src/exports/assignment.json` do `lab.py setup` tạo): có 
+- Giờ bắt đầu: 18h15
+- Giờ kết thúc: 19h00
 
 ## 1. Kiểm tra label (CP0)
 
@@ -41,9 +41,10 @@ Cách đổi cờ `occluded` / `outside` cho **một điểm** trên phiên bả
 | `faces` | 8 | | — | | |
 
 - Số ảnh người đã xong ở mốc phút 105: ___ / 10
-- Thời gian thực tế (phút): CP1 ___ · CP2 ___ · CP3 ___
+- Thời gian thực tế (phút): CP1: 5 phút · CP2 30 phút · CP3 10 phút
 - Ảnh tốn thời gian nhất là ảnh nào, vì sao?
-
+ Ảnh tốn thời gian nhất là ảnh 000000012552.jpg bởi vì:
+ - tuy các khớp không bị khuất nhiều nhưng vật thể có những tư thế đứng khó, khó xác định khớp 
 ...
 
 ## 3. Bảng ca khó (CP1, CP2)
@@ -111,15 +112,19 @@ Các `[CẢNH BÁO]` còn giữ nguyên và lý do:
 
 1. Label `person` trong label constructor (đủ 17 điểm có tên):
 
-   ![Label person](images/1_label_person.png)
+   ![Label person]
+   (images/label_1_nguoi.jpg)
+
 
 2. Một người quay lưng đã gán, cờ đã đặt:
 
-   ![Người quay lưng](images/2_nguoi_quay_lung.png)
+   ![Người quay lưng]
+   (images/anh_quay_lung.png)
 
 3. Một khuôn mặt đã gán 13 điểm, phóng to vùng mắt:
 
-   ![Khuôn mặt phóng to](images/3_mat_phong_to.png)
+   ![Khuôn mặt phóng to]
+   (images/mat_13_diem.png)
 
 4. Một đoạn JSON xuất của một người:
 
@@ -130,7 +135,8 @@ Nguồn ảnh: COCO val2017 / Wikimedia Commons.
 ## 7. Tự đánh giá
 
 1. Lỗi bạn mắc nhiều nhất hôm nay, và cách bạn sẽ tránh ở dự án thật:
-
+   lỗi mắc nhiều nhất là k nắm kĩ lý thuyết, các vật bị mất khỏi khung hình nhưng vẫn tưởng tượng và gán ra ngoài ảnh
+   -> đọc kĩ guideline trước khi làm để tránh lỗi, thừa các bước
    ...
 
 2. Một quy tắc bạn đề xuất thêm vào guideline (kèm ảnh ví dụ nếu có):

@@ -1,0 +1,43 @@
+{
+ "mssv": "202603085",
+ "ten": "PhamGiaBach",
+ "pool_version": "d04-k5-v2",
+ "cvat_user": "bachpham7",
+ "project": "d04-keypoint",
+ "persons": [
+  "000000072098.jpg",
+  "000000164659.jpg",
+  "000000336477.jpg",
+  "000000349521.jpg",
+  "000000433787.jpg",
+  "000000122199.jpg",
+  "000000157271.jpg",
+  "000000177338.jpg",
+  "000000311300.jpg",
+  "000000351176.jpg",
+  "000000106051.jpg",
+  "000000012552.jpg"
+ ],
+ "faces": [
+  "face_261458.jpg",
+  "face_380639.jpg",
+  "face_559185.jpg",
+  "face_105668.jpg",
+  "face_505385.jpg",
+  "face_288853.jpg",
+  "face_219250.jpg",
+  "face_562485.jpg"
+ ],
+ "tasks": {
+  "persons": {
+   "task_id": 2,
+   "job_id": 2,
+   "task_name": "persons-PhamGiaBach"
+  },
+  "faces": {
+   "task_id": 3,
+   "job_id": 3,
+   "task_name": "faces-PhamGiaBach"
+  }
+ }
+}
